@@ -17,5 +17,7 @@
         <mybatis.version>3.2.8</mybatis.version>
         <hibernate.version>4.3.6.Final</hibernate.version>		
     </properties>
-实现了 `struts` 框架中集成 `rest`，使用 `restful` 风格 `url` 访问 `action`，同时将普通非 `rest` 风格的 `action` 与 `rest` 风格 `action` 共存。
+实现了 `struts` 框架中集成 `rest`，使用 `restful` 风格 `url` 访问 `action`，同时将普通非 `rest` 风格的 `action` 与 `rest` 风格 `action` 共存。比如：
+>* `rest action` 访问: `http://localhost:8080/struts-rest-example/restful/login`
+>* 普通`action`访问: `http://localhost:8080/struts-rest-example/hello`
 
